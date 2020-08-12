@@ -1,0 +1,4 @@
+{
+    "reporter": "node_modules/mocha-allure-reporter/index.js"
+  }
+  

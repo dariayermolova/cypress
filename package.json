@@ -1,0 +1,28 @@
+{
+  "name": "cypresstest",
+  "version": "1.0.0",
+  "description": "Test cypress working",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --reporter mocha-allure-reporter"
+
+    },
+  "author": "Daria Yermolova",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/snapshot": "^2.1.7",
+    "cypress": "^4.0.2",
+    "cypress-file-upload": "^3.5.3",
+    "cypress-multi-reporters": "^1.4.0",
+    "mocha": "^6.2.3",
+    "mochawesome": "^4.1.0",
+    "mochawesome-merge": "^2.1.0",
+    "mochawesome-report-generator": "^4.1.0"
+  },
+  "dependencies": {
+    "mocha-allure-reporter": "^1.4.0",
+    "moment": "^2.24.0"
+  }
+
+}
